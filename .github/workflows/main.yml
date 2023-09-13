@@ -1,6 +1,0 @@
-name: Github-AutoDeploy
-
-on:
-    pull_request:
-        branches:
-            - main
