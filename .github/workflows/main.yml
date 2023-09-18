@@ -15,8 +15,9 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
+        protocol: sftp
         server: ${{ secrets.host }}
         username: ${{ secrets.username }}
         password: ${{ secrets.password }}
-        ssh-port: ${{ secrets.port }}
-        destination-path: ~/domains/umeshgoyal.in/public_html/Github/
+        port: ${{ secrets.port }}
+        server-dir: ~/domains/umeshgoyal.in/public_html/Github/
