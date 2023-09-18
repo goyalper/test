@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Changing Website Content...</title>
+<!-- <link rel= href=> -->
+
+</head>
+<body>
+    <h1>adding text after the content...</h1>
+    <p id="para">javascript is </p>
+    <button id="b1">click me!</button>
+    
+    
+<script>
+    document.getElementById("b1").onclick=function(){
+        document.getElementById("para").innerHTML=document.getElementById("para").innerHTML + "Awesome...";
+
+    }
+</script>
+
+<hr>
+
+<h1>adding text Before the content...(appending) </h1>
+
+<p id="para1">javascript is Awesome...</p>
+<button id="b2">click me!</button>
+
+
+<script>
+document.getElementById("b2").onclick=function(){
+    document.getElementById("para1").innerHTML="I Think... " + document.getElementById("para1").innerHTML;
+
+}
+</script>
+
+<hr>
+
+<h1>adding content...</h1>
+
+<p id="para2"></p>
+<button id="b3">click me!</button>
+
+
+<script>
+document.getElementById("b3").onclick=function(){
+    document.getElementById("para2").innerHTML= "I Think... javascript is Awesome... ";
+
+}
+</script>
+
+</body>
+</html>

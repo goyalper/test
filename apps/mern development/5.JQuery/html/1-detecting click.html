@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>detecting click</title>
+<script src="/Jquery/JQuery.js"></script>
+<!-- <link rel= href=> -->
+<style>
+
+#circle{
+        background-color: green;
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+
+
+    }
+#square{
+        
+        background-color: red;
+        height: 200px;
+        width: 200px;
+        /* border-radius: 50%; */
+        margin-top: 20px;
+}
+    
+</style>
+</head>
+<body>
+
+    <div id="circle"></div>
+    <div id="square"></div>
+    <div id="square"></div>
+    
+
+    <script>
+        $("#circle").hover(function(){
+            alert("hii threr hovering circle");
+        });
+        $("#square").click(function(){
+            alert("clicked on square");
+
+        });
+        $("div").click(function(){
+            alert("clicked on a div");
+
+        });
+
+
+        </script>
+</body>
+</html>

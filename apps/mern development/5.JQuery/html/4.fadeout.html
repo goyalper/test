@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>fadeout function</title>
+<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+<!-- <link rel= href=> -->
+
+</head>
+<body>
+<p style="display: none;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia veritatis asperiores ex cupiditate molestiae optio repellat quos ipsum voluptatum. Officiis nulla voluptatem eius at quidem ratione voluptas tenetur iusto. Ducimus nesciunt voluptatibus beatae ut corporis.</p>
+<button>Fadeout</button>
+<script>
+    $("button").click(function(){
+        // $("p").fadeOut("slow", function(){
+        //     // jquery callback function
+        //     alert("faded out");
+        // });
+        $("p").fadeIn("slow", function(){
+            // jquery callback function
+            alert("faded out");
+        });
+    })
+</script>
+</body>
+</html>

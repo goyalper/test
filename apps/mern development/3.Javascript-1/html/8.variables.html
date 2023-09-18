@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>variable</title>
+<!-- <link rel= href=> -->
+
+</head>
+<body>
+    <input id="input" type="text">
+    <button id="button">Submit</button>
+    <p id="para">This is Para 1..</p>
+    <!-- <h1>hiiiii/....</h1> -->
+    
+    <script>
+        var x="Umesh Goyal";
+        console.log(x);
+        document.getElementById("button").onclick=function(){
+            // document.getElementById("para").innerHTML=document.getElementById("input").value;
+            var val="";
+            val=document.getElementById("input").value;
+            console.log(val);
+            document.getElementById("para").innerHTML=val;
+
+        }
+    
+    
+    </script>
+</body>
+</html>

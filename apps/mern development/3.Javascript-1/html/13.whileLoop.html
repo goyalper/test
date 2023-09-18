@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>While Loop in JavaScript</title>
+<!-- <link rel= href=> -->
+
+</head>
+<body>
+
+<p id="p"></p>
+    <script>
+        var i = 0;
+        var tweets=["good morning", "having tea", "best of luck"];
+        var j = "";
+        while(i<3){
+            // alert("number is: " + i);
+            i++;
+            j+=" "+tweets[i];
+        }
+        document.getElementById("p").innerHTML=j;
+    </script>
+</body>
+</html>
