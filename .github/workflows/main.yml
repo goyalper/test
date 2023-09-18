@@ -20,4 +20,4 @@ jobs:
         username: ${{ secrets.username }}
         password: ${{ secrets.password }}
         port: ${{ secrets.port }}
-        # server-dir: ~/domains/umeshgoyal.in/public_html/Github/
+        server-dir: ~/htdocs
