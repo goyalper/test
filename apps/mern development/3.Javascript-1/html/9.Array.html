@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Arrays</title>
+<!-- <link rel= href=> -->
+
+</head>
+<body>
+    <h1 id="para2"></h1>
+    <button id="b3">click me!</button>
+
+    <script>
+        var arr=new Array();
+        arr[0]="javascript";
+        arr[1]=50;
+        var tweets=["hello", 50, "good morning"];
+        tweets.push(5000)
+        tweets.pop();
+
+        console.log(tweets);
+
+        document.getElementById("b3").onclick=function(){
+    document.getElementById("para2").innerHTML=tweets;
+        }
+    </script>
+
+</body>
+</html>

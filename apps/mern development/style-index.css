@@ -1,0 +1,61 @@
+body{
+    margin-top: 0px;
+    /* background-color: rebeccapurple; */
+    background-image: url('image_index/1 (6).jpg');
+    backface-visibility: visible;
+    /* background-size: 1920px 1080px; */
+    background-size:cover;
+    background-blend-mode: soft-light;
+
+    background-repeat: no-repeat;
+    
+}
+/* span::before {
+    content: "Umesh Goyal";
+    animation: animate infinite 5s;
+    padding-left: 0px;
+} */
+#gap{
+    margin-top: 200px;
+}
+#typing {
+
+    width: 0ch;
+    color: white;
+    float: left;
+    font-family: sans-serif;
+    font-weight:bold;
+    font-size: 60px;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 5s steps(22) 1s infinite alternate;
+}
+#typing span{
+color:red;}
+
+#crow {
+    float: left;
+
+color: white;
+    font-family: consolas;
+    font-weight:bold;
+    font-size: 60px;
+    animation: crow 0.5s linear 0s infinite;
+}
+@keyframes typing {
+    from {
+        width: 0ch;
+    }
+    to {
+        width: 25ch;
+    }
+}
+@keyframes crow {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+

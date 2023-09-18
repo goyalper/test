@@ -1,0 +1,53 @@
+<!-- flexbobx = Flexible box
+an advanced version of float & position properties -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Flexbox...</title>
+<!-- <link rel= href=> -->
+<style>
+    body{
+        background-color: rgb(126, 180, 180);
+    }
+ul{
+    background-color: rgb(154, 72, 86);
+    list-style-type: none;
+    height: 500px;
+    margin: 0px;
+    padding: 0px;
+    border:1px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:stretch;
+
+
+}
+li{
+    border: 1px solid black;
+    margin: 0.5em;
+    padding: 0.5em;
+    background-color: aqua;
+}
+.first{
+    order: 1;
+}
+.sec{
+    order:2;
+}
+.third{
+    order:3;
+}
+
+    
+</style>
+</head>
+<body>
+<ul>
+    <li class="first">1st</li>
+    <li class="sec">2nd</li>
+    <li class="third">3rd</li>
+</ul>
+</body>
+</html>

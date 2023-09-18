@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>random number guessing game</title>
+<!-- <link rel= href=> -->
+
+</head>
+<body>
+    <p>Enter a Number Between Range of (1 to 5)</p>
+<input type="text" id="input">
+<button id="button">Submit</button>
+
+<script>
+    var userEntry=0;
+    document.getElementById("button").onclick=function () {
+        userEntry=document.getElementById("input").value;
+        // alert(userEntry);
+        var answer=Math.floor(Math.random()*5)+1;
+        console.log(answer);
+        if (userEntry==answer) {
+            alert("Congratulations!!!! you won...")
+        }else(
+            alert("try again!!!")
+        );
+    }
+</script>
+</body>
+</html>

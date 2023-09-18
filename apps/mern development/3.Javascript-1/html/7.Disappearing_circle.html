@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>disappearing_circles</title>
+<!-- <link rel= href=> -->
+<style> 
+body{
+    background-color: royalblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.d{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+#d1{
+    background-color: red;
+    
+}
+#d2{
+    background-color: blue;
+    
+}
+#d3{
+    background-color: green;
+    
+}
+</style>
+
+</head>
+<body>
+    <div class="d" id="d1"></div>
+    <div class="d" id="d2"></div>
+    <div class="d" id="d3"></div>
+
+    <script>
+        document.getElementById("d1").onclick=function(){
+            document.getElementById("d1").style.display="none";
+        }
+        document.getElementById("d2").onclick=function(){
+            document.getElementById("d2").style.display="none";
+        }
+        document.getElementById("d3").onclick=function(){
+            document.getElementById("d3").style.display="none";
+        }
+
+    </script>
+</body>
+</html>

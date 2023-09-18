@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Length finder</title>
+    <!-- <link rel= href=> -->
+    <style>
+      h1 {
+        color: blueviolet;
+        background-color: aquamarine;
+        padding: 20px;
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Get Lenth By Entering String....</h1>
+    <div>
+      <input type="text" id="t" />
+      <button id="b">Submit</button>
+    </div>
+    <p id="p"></p>
+
+    <script>
+      var b = document.getElementById("b");
+      var t = document.getElementById("t");
+      var p = document.getElementById("p");
+
+      b.onclick = function () {
+        // value=t.innerhtml;
+        // p.style.display="block";
+        p.innerHTML =
+          "Your entered string has " + t.value.length + " Characters only.";
+        console.log(t.value.length);
+      };
+    </script>
+  </body>
+</html>

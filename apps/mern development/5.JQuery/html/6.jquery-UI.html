@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>JQuery-UI</title>
+<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+<link href="/Jquery/jquery-ui/jquery-ui.css">
+<script src="/Jquery/jquery-ui/jquery-ui.js"></script>
+<!-- <link rel= href=> -->
+<style>
+    h1{
+        border: 1px solid black;
+    }
+</style>
+</head>
+<body>
+
+    <div class="draggable">
+        <h1>this text is draggable...</h1>
+    </div>
+    <h1>this text isn't draggable...</h1>
+    <div class="draggablex">
+        <h1>this text is only draggable in axis X...</h1>
+    </div>
+    <div class="draggabley">
+        <h1>this text is only draggable in axis Y...</h1>
+    </div>
+    <script>
+    $(".draggable").draggable();
+    $(".draggablex").draggable({axis : "x"});
+    $(".draggabley").draggable({axis : "y"});
+    </script>
+
+</body>
+</html>

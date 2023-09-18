@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>js Var Naming Conventions...</title>
+<!-- <link rel= href=> -->
+<style>
+    li{
+        color: green;
+
+    }
+    #red{
+        color: red;
+    }
+</style>
+</head>
+<body>
+    <h1>Naming Conventions used to declaring a variable in Javascript</h1>
+    <ul>
+        <li id="red">var = 1ac  -> it's not a right way b'coz javascript variables must start with a alphabet ("Abcd...") or a Underscore ("_")</li>
+        <li>var = ac  -> it's correct</li>
+        <li>var = Ac  -> it's correct</li>
+        <li>var = _ac  -> it's correct</li>
+    </ul>
+    
+
+</body>
+</html>
