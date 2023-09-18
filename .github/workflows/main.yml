@@ -15,7 +15,7 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
-        protocol: sftp
+        protocol: ftps
         server: ${{ secrets.host }}
         username: ${{ secrets.username }}
         password: ${{ secrets.password }}
